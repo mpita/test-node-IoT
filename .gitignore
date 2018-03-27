@@ -1,0 +1,10 @@
+.DS_STORE
+
+# Include when developing application packages.
+.vscode
+.idea/
+
+# Ignore npm/yarn debug log
+npm-debug.log
+
+node_modules
