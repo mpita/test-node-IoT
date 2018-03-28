@@ -4,7 +4,7 @@ const agent = {
   id: 1,
   uuid: 'yyy-yyy-yyy',
   name: 'fixture',
-  username: 'platzi',
+  username: 'mpita',
   hostname: 'test-host',
   pid: 0,
   connected: true,
@@ -28,7 +28,7 @@ module.exports = {
   single: agent,
   all: agents,
   connected: agents.filter(a => a.connected),
-  platzi: agents.filter(a => a.username === 'platzi'),
+  mpita: agents.filter(a => a.username === 'mpita'),
   byUuid: id => agents.filter(a => a.uuid === id).shift(),
   byId: id => agents.filter(a => a.id === id).shift()
 }
